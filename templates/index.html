@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1 style="color:royalblue">Upload a file</h1>
+    <form method="POST" enctype="multipart/form-data" action="{% url 'emotions:predict_emotion' %}">
+        {% csrf_token %}
+        <input type="file" name="audio" accept=".wav">
+        <input class="btn btn-primary" type="submit" value="Predict">
+    </form>
+    <br>
+    {% if predicted_emotion %}
+        <h2>Predicted Emotion: <span style="color:forestgreen ">{{ predicted_emotion }}</span></h2>
+        {% if emotion_graph %}
+            <img src="data:image/png;base64,{{ emotion_graph }}" alt="Emotion Graph">
+        {% endif %}
+    {% endif %}
+    {% if error_message %}
+        <p style="color:red">{{ error_message }}</p>
+    {% endif %}
+{% endblock %}
