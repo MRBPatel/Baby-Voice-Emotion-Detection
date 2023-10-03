@@ -54,6 +54,14 @@ To set up and run the Baby Emotion Detection from Audio project, follow these st
 
 5. View the results on the web interface, which may include visualizations generated using Matplotlib for a better understanding of the analysis.
 
+## Snipets
+![login_page](https://github.com/MRBPatel/human_activity_recogniser/assets/69763309/c27f2aee-1beb-451d-8b76-f812238afa0b)
+![home_page](https://github.com/MRBPatel/human_activity_recogniser/assets/69763309/2a30adda-7c58-4d8f-a8a5-3389c246d238)
+![output_3](https://github.com/MRBPatel/human_activity_recogniser/assets/69763309/11e99bb3-b8e0-4083-b49b-8f124bad1862)
+![output_4](https://github.com/MRBPatel/human_activity_recogniser/assets/69763309/e1a1efa5-3c08-462c-b24d-7af9bbf146a9)
+![output_5](https://github.com/MRBPatel/human_activity_recogniser/assets/69763309/e1fb1f18-7a61-488d-8115-9598098081dd)
+![output_2](https://github.com/MRBPatel/human_activity_recogniser/assets/69763309/bb5f824c-fbc7-43ac-9cd7-7454bb617344)
+
 ## Contributing
 
 Contributions to this project are welcome! If you have ideas for improvements, additional features, or bug fixes, please feel free to open an issue or submit a pull request.
